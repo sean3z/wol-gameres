@@ -1,7 +1,7 @@
 # Tiberian Sun
 Below are a list of fields available in the Tiberian Sun 2.03 Game Resolution Packet
 
-### Client Information
+## Client Information
 ##### `VERS` Version
 Game client version
 * `type` string
@@ -52,7 +52,7 @@ Game SKU
 * `type` integer
 * `example` 4708
 
-#### Match Information
+## Match Information
 ##### `DATE`
 Game SKU
 * `type` datetime
@@ -134,7 +134,7 @@ Match Identifier
 * `example` 100
 
 
-#### Player Array
+## Player Array
 ##### `NAM`
 Game SKU
 * `type` integer
