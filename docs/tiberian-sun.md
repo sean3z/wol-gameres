@@ -4,53 +4,53 @@ Below are a list of fields available in the Tiberian Sun 2.03 Game Resolution Pa
 ### Client Information
 ##### `VERS` Version
 Game client version
-* `type`: string
-* `example`: v2.03
+* `type` string
+* `example` v2.03
 
 ##### `VIDM` Video Memory
 Client's video memory
-* `type`: int
-* `example`: 16777216
+* `type` int
+* `example` 16777216
 
 ##### `MEMO` Memory
 Client's available RAM
-* `type`: int
-* `example`: 1073741823
+* `type` int
+* `example` 1073741823
 
 ##### `PROC` Processor
 Client's processor type
-* `type`: integer
-* `example`: 6
+* `type` integer
+* `example` 6
 
 ##### `AFPS` Average FPS
 Client's Average Frames per Second
-* `type`: integer
-* `example`: 56
+* `type` integer
+* `example` 56
 
 ##### `PNGR` Pings Received
 Client's Pings Received
-* `type`: integer
-* `example`: 1
+* `type` integer
+* `example` 1
 
 ##### `PNGS` Pings Sent
 Client's Pings Sent
-* `type`: integer
-* `example`: 1
+* `type` integer
+* `example` 1
 
 ##### `FINI` Finish
 Whether the client saw the finish of the match
-* `type`: bool
-* `example`: 1
+* `type` bool
+* `example` 1
  
 ##### `OOSY` Out of Sync
 Whether the match was considered Out of Sync
-* `type`: bool
-* `example`: 1
+* `type` bool
+* `example` 1
 
 ##### `GSKU` Game SKU
 Game SKU
-* `type`: integer
-* `example`: 4708
+* `type` integer
+* `example` 4708
 
 #### Match Information
 * `DATE`
