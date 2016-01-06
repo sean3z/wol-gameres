@@ -53,54 +53,207 @@ Game SKU
 * `example` 4708
 
 #### Match Information
-* `DATE`
-* `SPED`
-* `TIME`
-* `PLRS`
-* `WDTT`
-* `SCEN`
-* `FLAG`
-* `SHAD`
-* `AIPL`
-* `CRAT`
-* `TIBR`
-* `BASE`
-* `CRED`
-* `DURA`
-* `TRNY`
-* `IDNO`
+##### `DATE`
+Game SKU
+* `type` datetime
+* `example` 1452101198
+
+##### `SPED`
+Match speed setting
+* `type` integer
+* `example` 10
+
+##### `TIME`
+Timestamp of when the match started
+* `type` datetime
+* `example` 1452101198
+
+##### `PLRS`
+Players in game
+* `type` integer
+* `example` 4708
+
+##### `WDTT`
+Whether game was for World Domination Tour
+* `type` bool
+* `example` 1
+
+##### `SCEN`
+Selected Map
+* `type` string
+* `example` Terrace
+
+##### `FLAG`
+Capture the flag
+* `type` bool
+* `example` 1
+
+##### `SHAD`
+Fog of War
+* `type` bool
+* `example` 0
+
+##### `AIPL`
+Number of AI Players
+* `type` integer
+* `example` 0
+
+##### `CRAT`
+Whether crates are enabled
+* `type` bool
+* `example` 1
+
+##### `TIBR`
+Whether Tiberium is enabled
+* `type` bool
+* `example` 1
+
+##### `BASE`
+Whether bases are enabled
+* `type` bool
+* `example` 1
+
+##### `CRED`
+Match starting credits
+* `type` integer
+* `example` 10000
+
+##### `DURA`
+Match duration (in seconds)
+* `type` integer
+* `example` 700
+
+##### `TRNY`
+Whether match was a tournament game
+* `type` bool
+* `example` 1
+
+##### `IDNO`
+Match Identifier
+* `type` integer
+* `example` 100
+
 
 #### Player Array
-* `NAM` 
-* `SID`
-* `TID`
-* `COL`
-* `CRD`
-* `UNL`
-* `INL`
-* `PLL`
-* `BLL`
-* `UNB`
-* `INB`
-* `PLB`
-* `BLB`
-* `UNK`
-* `INK`
-* `PLK`
-* `BLK` 
-* `BLC`
-* `CRA`
-* `HRV`
-* `CMP`
-* `IPA`
-* `CID`
-* `LCN`
+##### `NAM`
+Game SKU
+* `type` integer
+* `example` 4708
+
+##### `SID`
+Game SKU
+* `type` integer
+* `example` 4708
+
+##### `TID`
+Game SKU
+* `type` integer
+* `example` 4708
+
+##### `COL`
+Game SKU
+* `type` integer
+* `example` 4708
+
+##### `CRD`
+Game SKU
+* `type` integer
+* `example` 4708
+
+##### `UNL`
+Game SKU
+* `type` integer
+* `example` 4708
+
+##### `INL`
+Game SKU
+* `type` integer
+* `example` 4708
+
+##### `PLL`
+Game SKU
+* `type` integer
+* `example` 4708
+
+##### `BLL`
+Game SKU
+* `type` integer
+* `example` 4708
+
+##### `UNB`
+Game SKU
+* `type` integer
+* `example` 4708
+
+##### `INB`
+Game SKU
+* `type` integer
+* `example` 4708
+
+##### `PLB`
+Game SKU
+* `type` integer
+* `example` 4708
+
+##### `BLB`
+Game SKU
+* `type` integer
+* `example` 4708
+
+##### `UNK`
+Game SKU
+* `type` integer
+* `example` 4708
+
+##### `INK`
+Game SKU
+* `type` integer
+* `example` 4708
+
+##### `PLK`
+Game SKU
+* `type` integer
+* `example` 4708
+
+##### `BLK` 
+Game SKU
+* `type` integer
+* `example` 4708
+
+##### `BLC`
+Game SKU
+* `type` integer
+* `example` 4708
+
+##### `CRA`
+Game SKU
+* `type` integer
+* `example` 4708
+
+##### `HRV`
+Game SKU
+* `type` integer
+* `example` 4708
+
+##### `CMP`
+Game SKU
+* `type` integer
+* `example` 4708
+
+##### `IPA`
+Game SKU
+* `type` integer
+* `example` 4708
+
+##### `CID`
+Game SKU
+* `type` integer
+* `example` 4708
+
+##### `LCN`
+Game SKU
+* `type` integer
+* `example` 4708
 
 #### Unknown
-* `SPID`
-
-
-
-
-
-
+##### `SPID`
