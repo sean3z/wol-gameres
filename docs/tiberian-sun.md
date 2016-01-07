@@ -3,12 +3,12 @@ Below are a list of fields available in the Tiberian Sun 2.03 Game Resolution Pa
 
 ## Client Information
 ##### `VERS` Version
-Game client version
+This is essentially used to determine whether the game client has the most recent patch
 * `type` string
 * `example` v2.03
 
 ##### `VIDM` Video Memory
-Client's video memory
+Client's available video memory
 * `type` int
 * `example` 16777216
 
@@ -23,22 +23,22 @@ Client's processor type
 * `example` 6
 
 ##### `AFPS` Average FPS
-Client's Average Frames per Second
+Client's Average Frames per Second during the match
 * `type` integer
 * `example` 56
 
 ##### `PNGR` Pings Received
-Client's Pings Received
+Once a match begins, the server pings each client to keep the WOL connection alive. This is used to determine which player disconnected
 * `type` integer
 * `example` 1
 
 ##### `PNGS` Pings Sent
-Client's Pings Sent
+Similar to the above, this is used to determine how many times the player's connection was able to respond to each ping.
 * `type` integer
 * `example` 1
 
 ##### `FINI` Finish
-Whether the client saw the finish of the match
+Whether the client saw the finish of the match.
 * `type` bool
 * `example` 1
  
