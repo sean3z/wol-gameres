@@ -54,7 +54,7 @@ Game SKU
 
 ## Match Information
 ##### `DATE`
-Game SKU
+Match date
 * `type` datetime
 * `example` 1452101198
 
@@ -136,7 +136,7 @@ Match Identifier
 
 ## Player Array
 ##### `NAM`
-Game SKU
+Player's name
 * `type` integer
 * `example` 4708
 
