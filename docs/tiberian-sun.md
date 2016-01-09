@@ -141,7 +141,7 @@ Player's name
 * `example` 4708
 
 ##### `SID`
-Game SKU
+Side Index (0 == GDI, 1 == Nod)
 * `type` integer
 * `example` 4708
 
