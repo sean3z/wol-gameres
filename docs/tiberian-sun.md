@@ -151,7 +151,7 @@ Game SKU
 * `example` 4708
 
 ##### `COL`
-Game SKU
+Player's color
 * `type` integer
 * `example` 4708
 
