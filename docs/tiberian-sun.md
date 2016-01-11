@@ -156,17 +156,17 @@ Player's color
 * `example` 4708
 
 ##### `CRD`
-Game SKU
+Player's credits
 * `type` integer
 * `example` 4708
 
 ##### `UNL`
-Game SKU
+Units Left (Mech units)
 * `type` integer
 * `example` 4708
 
 ##### `INL`
-Game SKU
+Infantry Left
 * `type` integer
 * `example` 4708
 
