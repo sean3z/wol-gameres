@@ -171,12 +171,12 @@ Infantry Left
 * `example` 4708
 
 ##### `PLL`
-Game SKU
+Planes Left
 * `type` integer
 * `example` 4708
 
 ##### `BLL`
-Game SKU
+Buildings Left
 * `type` integer
 * `example` 4708
 
