@@ -181,7 +181,7 @@ Buildings Left
 * `example` 4708
 
 ##### `UNB`
-Game SKU
+Units Built
 * `type` integer
 * `example` 4708
 
