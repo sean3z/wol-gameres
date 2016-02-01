@@ -186,7 +186,7 @@ Units Built
 * `example` 4708
 
 ##### `INB`
-Game SKU
+Infantry Built
 * `type` integer
 * `example` 4708
 
